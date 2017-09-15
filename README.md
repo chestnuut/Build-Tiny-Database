@@ -32,13 +32,13 @@ For this project, you can choose page replacement functions from:
 
 `FIFO` `LRU` `LRU_K` `CLOCK` `LFU`
 
-Please reference the readme file in the buffer manager for details.
+Please reference the [readme file](https://github.com/arnoldzl/Build-Tiny-Database/tree/master/Buffer%20Manager#data-structure) in the buffer manager for details.
 
 ### Record Manager
 
 The `Record Manager` handles tables with a fixed schema. Clients can insert records, delete records, update records, and scan through the records in a table. A scan is associated with a search condition and only returns records that match the search condition. Each table is stored in a separate page file and the record manager can access the pages of the file through the buffer manager.
 
-Please reference the [readme file](https://github.com/arnoldzl/Build-Tiny-Database/tree/master/Buffer%20Manager#data-structure) in the record manager for details.
+Please reference the [readme file](https://github.com/arnoldzl/Build-Tiny-Database/tree/master/Record%20Manager#data-structure-descriptions) in the record manager for details.
 
 ### BTree Index
 
