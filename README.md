@@ -5,7 +5,7 @@
 1. [Storage Manager](#storage-manager)
 2. [Buffer Manager](#buffer-manager)
 3. [Record Manager](#record-manager)
-4. [B+-Tree index](#b+tree-index)
+4. [B+-Tree index](#btree-index)
 
 ### Storage Manager
 
@@ -40,7 +40,7 @@ The `Record Manager` handles tables with a fixed schema. Clients can insert reco
 
 Please reference the readme file in the record manager for details.
 
-### B+Tree Index
+### BTree Index
 
 This `B+-Tree index` is backed up by a page file and pages of the index is accessed through the Buffer Manager. Each node occupies one page. A small fan-out was added for debugging purpose. A B+-tree stores pointer to records (the RID in Record Manager) index by a key of a given datatype. 
 
