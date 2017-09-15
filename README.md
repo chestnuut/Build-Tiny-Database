@@ -5,7 +5,7 @@
 1. [Storage Manager](#storage-manager)
 2. [Buffer Manager](#buffer-manager)
 3. [Record Manager](#record-manager)
-4. [B+-Tree index](#b+Tree-index)
+4. [B+-Tree index](#b+tree-index)
 
 ### Storage Manager
 
