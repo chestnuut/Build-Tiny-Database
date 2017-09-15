@@ -7,7 +7,7 @@
 3. [Record Manager](#Record Manager)
 4. [B+-Tree index](#B+-Tree Index)
 
-###Storage Manager
+### Storage Manager
 
 The `storage manager` deals with pages of fixed size.
 
@@ -23,7 +23,7 @@ It is a module that is capable of reading blocks from a file on disk into memory
 `opening`
 and `closing` files
 
-###Buffer Manager
+### Buffer Manager
 
 The `buffer manager` manages a fixed number of pages in memory that represent pages from a page file managed by the storage manager.
 
