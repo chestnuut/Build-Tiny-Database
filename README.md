@@ -2,10 +2,10 @@
 ## Process:
 **The basic process is**
 
-1. [Storage Manager](# Storage Manager)
-2. [Buffer Manager](# Buffer Manager)
-3. [Record Manager](# Record Manager)
-4. [B+-Tree index](# B+-Tree Index)
+1. [Storage Manager](### Storage Manager)
+2. [Buffer Manager](### Buffer Manager)
+3. [Record Manager](### Record Manager)
+4. [B+-Tree index](### B+-Tree Index)
 
 ### Storage Manager
 
